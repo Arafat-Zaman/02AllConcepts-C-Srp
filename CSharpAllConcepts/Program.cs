@@ -45,16 +45,16 @@ namespace CSharpAllConcepts
     class Program
     {
 
-        static void Main()
-        {
-            ChildClass cc = new ChildClass();
-            ((ParentClass)cc).PrintFullName();
-            //Program.EvenNumber(30);
-            //Program p = new Program();
-            //p.Add(1,100);
+        //static void Main()
+        //{
+        //    ChildClass cc = new ChildClass();
+        //    ((ParentClass)cc).PrintFullName();
+        //    //Program.EvenNumber(30);
+        //    //Program p = new Program();
+        //    //p.Add(1,100);
 
             
-        }
+        //}
     }
         //class Customer
         //{
