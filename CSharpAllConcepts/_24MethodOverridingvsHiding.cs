@@ -32,9 +32,11 @@ namespace CSharpAllConcepts
     //}
     public class _24MethodOverridingvsHiding
     {
-        public static void Main()
-        {
-            Baseclass b = new DerivedClass();
+        //public static void Main()
+        //{
+            public static void test()
+            {
+                Baseclass b = new DerivedClass();
             b.Print();
             Console.ReadKey();
         }

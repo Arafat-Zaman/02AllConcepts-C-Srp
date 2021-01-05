@@ -48,6 +48,8 @@
     <Compile Include="_23Polymorphism.cs" />
     <Compile Include="_24MethodOverridingvsHiding.cs" />
     <Compile Include="_25Methodoverloading.cs" />
+    <Compile Include="_26Properties.cs" />
+    <Compile Include="_27Properties.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

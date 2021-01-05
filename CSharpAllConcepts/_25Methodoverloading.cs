@@ -8,7 +8,9 @@ namespace CSharpAllConcepts
 {
     class _25Methodoverloading
     {
-        public static void Main()
+        //public static void Main()
+        //{
+        public static void test()
         {
             //Add()
         }
