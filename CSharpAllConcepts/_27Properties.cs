@@ -35,9 +35,12 @@ namespace CSharpAllConcepts
 
     public class _27Properties
     {
-        public static void Main()
-        {
-            Students c1 = new Students();
+        //public static void Main()
+        //{
+            public static void test()
+            {
+
+                Students c1 = new Students();
             c1.id = 101;
 
             Console.WriteLine("{0}", c1.id);

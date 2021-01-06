@@ -50,6 +50,7 @@
     <Compile Include="_25Methodoverloading.cs" />
     <Compile Include="_26Properties.cs" />
     <Compile Include="_27Properties.cs" />
+    <Compile Include="_28Struct.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

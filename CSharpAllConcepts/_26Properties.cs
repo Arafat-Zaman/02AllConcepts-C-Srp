@@ -30,9 +30,11 @@ namespace CSharpAllConcepts
 
     public class _26Properties
     {
-        public static void Main()
-        {
-            Student c1 = new Student();
+        //public static void Main()
+        //{
+            public static void test()
+            {
+                Student c1 = new Student();
             c1.SetId(101);
 
             Console.WriteLine("{0}",c1.GetId());
