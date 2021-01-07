@@ -30,9 +30,11 @@ namespace CSharpAllConcepts
 
     public class _30Interfacecs
     {
-        public static void Main()
-        {
-            Customerss c1 = new Customerss();
+        //public static void Main()
+        //{
+            public static void test()
+            {
+                Customerss c1 = new Customerss();
             c1.Print1();
             c1.Print2();
         }
