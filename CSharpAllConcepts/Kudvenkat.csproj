@@ -53,6 +53,7 @@
     <Compile Include="_28Struct.cs" />
     <Compile Include="_30Interfacecs.cs" />
     <Compile Include="_31explicitinterface.cs" />
+    <Compile Include="_32Abstractclass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

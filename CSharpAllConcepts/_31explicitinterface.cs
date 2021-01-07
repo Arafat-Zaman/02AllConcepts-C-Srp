@@ -28,13 +28,15 @@ namespace CSharpAllConcepts
             Console.WriteLine("2");
         }
 
-        public static void Main()
-        {
-            //_31explicitinterface expl = new _31explicitinterface();
-            // ((I1)expl).Print1();
-            // ((I2)expl).Print1();
+        //public static void Main()
+        //{
+            public static void test()
+            {
+                //_31explicitinterface expl = new _31explicitinterface();
+                // ((I1)expl).Print1();
+                // ((I2)expl).Print1();
 
-            I1 i1 = new _31explicitinterface();
+                I1 i1 = new _31explicitinterface();
             I2 i2 = new _31explicitinterface();
 
             i1.Print1();
