@@ -31,9 +31,11 @@ namespace CSharpAllConcepts
 
     public class _28Struct
     {
-        public static void Main()
-        {
-            Customer c1 = new Customer(101, "Mark");
+        //public static void Main()
+        //{
+            public static void test()
+            {
+                Customer c1 = new Customer(101, "Mark");
             c1.PrintDetails();
 
             Customer c2 = new Customer();

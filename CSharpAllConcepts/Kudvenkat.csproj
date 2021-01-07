@@ -51,6 +51,7 @@
     <Compile Include="_26Properties.cs" />
     <Compile Include="_27Properties.cs" />
     <Compile Include="_28Struct.cs" />
+    <Compile Include="_30Interfacecs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
