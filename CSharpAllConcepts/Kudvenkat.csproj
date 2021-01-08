@@ -58,6 +58,7 @@
     <Compile Include="_35Multipleinheritancofclass.cs" />
     <Compile Include="_36Delegate.cs" />
     <Compile Include="_37UsageofDelegates.cs" />
+    <Compile Include="_39MulticastDelegate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

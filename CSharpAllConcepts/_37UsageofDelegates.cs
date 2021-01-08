@@ -6,17 +6,34 @@ using System.Threading.Tasks;
 
 namespace CSharpAllConcepts
 {
-    class _37UsageofDelegates
+    public delegate bool ISPromotable(Employeee empl);
+    public class _37UsageofDelegates
     {
-        public static void Main()
-        {
-            List<Employeee> empList = new List<Employeee>();
+        //public static void Main()
+        //{
+            public static void test()
+            {
+                List<Employeee> empList = new List<Employeee>();
 
             empList.Add(new Employeee() { ID = 101, Name = "A", Salary = 101, Experience = 1 });
             empList.Add(new Employeee() { ID = 101, Name = "B", Salary = 101, Experience = 5 });
             empList.Add(new Employeee() { ID = 101, Name = "C", Salary = 101, Experience = 6 });
 
-            Employeee.Promote(empList);
+            ISPromotable isPromotable = new ISPromotable(Promoted);
+
+            Employeee.Promote(empList, isPromotable);
+        }
+
+        public static bool Promoted(Employeee emp)
+        {
+            if(emp.Experience >=5)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
     }
@@ -28,11 +45,11 @@ namespace CSharpAllConcepts
         public int Salary { get; set; }
         public int Experience { get; set; }
 
-        public static void Promote(List<Employeee> emplist)
+        public static void Promote(List<Employeee> emplist, ISPromotable isEligiblePromotable)
         {
             foreach(Employeee empl in emplist)
             {
-                if(empl.Experience >=5)
+                if(isEligiblePromotable(empl))
                 {
                     Console.WriteLine("Promoted"+ empl.Name);
                 }
