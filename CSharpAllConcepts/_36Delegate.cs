@@ -6,26 +6,22 @@ using System.Threading.Tasks;
 
 namespace CSharpAllConcepts
 {
-    public abstract class Cus
-    {
-        public abstract void Print();
-    }
+    public delegate void HelloFunction(string MEssage);
 
-    class _32Abstractclass : Cus
+   
+    class _36Delegate
     {
-        public override void Print()
+        public static void Hello(string strMessage)
         {
-            Console.WriteLine("test");
+            Console.WriteLine(strMessage);
         }
 
         //public static void Main()
         //{
             public static void test()
             {
-                Cus c1 = new _32Abstractclass();
-            c1.Print();
+                HelloFunction hf = new HelloFunction(Hello);
+            hf("Arafat");
         }
-
-        
     }
 }

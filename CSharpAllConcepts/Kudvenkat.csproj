@@ -54,6 +54,10 @@
     <Compile Include="_30Interfacecs.cs" />
     <Compile Include="_31explicitinterface.cs" />
     <Compile Include="_32Abstractclass.cs" />
+    <Compile Include="_34Multipleclassinheritance.cs" />
+    <Compile Include="_35Multipleinheritancofclass.cs" />
+    <Compile Include="_36Delegate.cs" />
+    <Compile Include="_37UsageofDelegates.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
