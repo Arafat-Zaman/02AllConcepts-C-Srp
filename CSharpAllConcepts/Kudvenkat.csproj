@@ -59,6 +59,8 @@
     <Compile Include="_36Delegate.cs" />
     <Compile Include="_37UsageofDelegates.cs" />
     <Compile Include="_39MulticastDelegate.cs" />
+    <Compile Include="_40Exception.cs" />
+    <Compile Include="_41innerexception.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

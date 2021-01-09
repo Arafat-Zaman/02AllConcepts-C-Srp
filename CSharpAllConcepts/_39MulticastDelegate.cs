@@ -10,9 +10,11 @@ namespace CSharpAllConcepts
 
     public class _39MulticastDelegate
     {
-        public static void Main()
-        {
-            SampleDelegate del1, del2, del3, del4;
+        //public static void Main()
+        //{
+            public static void Test()
+            {
+                SampleDelegate del1, del2, del3, del4;
 
 
             del1 = new SampleDelegate(SampelMethod1);
