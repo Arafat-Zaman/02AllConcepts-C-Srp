@@ -61,6 +61,8 @@
     <Compile Include="_39MulticastDelegate.cs" />
     <Compile Include="_40Exception.cs" />
     <Compile Include="_41innerexception.cs" />
+    <Compile Include="_42CustomException.cs" />
+    <Compile Include="_43Exceptionhandling.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
