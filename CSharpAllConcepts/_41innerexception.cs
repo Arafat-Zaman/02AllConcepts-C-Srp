@@ -8,9 +8,11 @@ namespace CSharpAllConcepts
 {
     class _41innerexception
     {
-        public static void Main()
-        {
-            try
+        //public static void Main()
+        //{
+            public static void Test()
+            {
+                try
             {
                 Console.WriteLine("Enter First Number: ");
                 int FN = Convert.ToInt32(Console.ReadLine());

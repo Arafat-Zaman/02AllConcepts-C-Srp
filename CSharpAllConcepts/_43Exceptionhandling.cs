@@ -8,9 +8,11 @@ namespace CSharpAllConcepts
 {
     public class _43Exceptionhandling
     {
-        public static void Main()
-        {
-            try
+        //public static void Main()
+        //{
+            public static void test()
+            {
+                try
             {
                 Console.WriteLine("1st: ");
                 int Numerator;

@@ -63,6 +63,7 @@
     <Compile Include="_41innerexception.cs" />
     <Compile Include="_42CustomException.cs" />
     <Compile Include="_43Exceptionhandling.cs" />
+    <Compile Include="_46Enum.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

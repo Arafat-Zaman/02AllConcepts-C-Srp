@@ -8,9 +8,11 @@ namespace CSharpAllConcepts
 {
     public class _42CustomException
     {
-        public static void Main()
-        {
-            throw new UserAlreadyloggedin();
+        //public static void Main()
+        //{
+            public static void test()
+            {
+                throw new UserAlreadyloggedin();
         }
     }
     public class UserAlreadyloggedin : Exception
