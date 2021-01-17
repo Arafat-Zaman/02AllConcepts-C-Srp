@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7605B716-06AC-4BAB-81FF-92B00F1F3241}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpAllConcepts</RootNamespace>
-    <AssemblyName>CSharpAllConcepts</AssemblyName>
+    <ProjectGuid>{60A585BE-568E-44B5-AFB5-00E2D9A2EA50}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assembly2</RootNamespace>
+    <AssemblyName>Assembly2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,32 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Assembly2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="_23Polymorphism.cs" />
-    <Compile Include="_24MethodOverridingvsHiding.cs" />
-    <Compile Include="_25Methodoverloading.cs" />
-    <Compile Include="_26Properties.cs" />
-    <Compile Include="_27Properties.cs" />
-    <Compile Include="_28Struct.cs" />
-    <Compile Include="_30Interfacecs.cs" />
-    <Compile Include="_31explicitinterface.cs" />
-    <Compile Include="_32Abstractclass.cs" />
-    <Compile Include="_34Multipleclassinheritance.cs" />
-    <Compile Include="_35Multipleinheritancofclass.cs" />
-    <Compile Include="_36Delegate.cs" />
-    <Compile Include="_37UsageofDelegates.cs" />
-    <Compile Include="_39MulticastDelegate.cs" />
-    <Compile Include="_40Exception.cs" />
-    <Compile Include="_41innerexception.cs" />
-    <Compile Include="_42CustomException.cs" />
-    <Compile Include="_43Exceptionhandling.cs" />
-    <Compile Include="_46Enum.cs" />
-    <Compile Include="_49AccessModifiers.cs" />
-    <Compile Include="_50AccessModifier.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <ProjectReference Include="..\Assembly1\Assembly1.csproj">
+      <Project>{94929188-d950-4546-b08a-de7730109883}</Project>
+      <Name>Assembly1</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

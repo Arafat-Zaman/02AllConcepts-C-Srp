@@ -8,9 +8,11 @@ namespace CSharpAllConcepts
 {
     public class _46Enum
     {
-        public static void Main()
-        {
-            Customerrs[] customerrs = new Customerrs[3];
+        //public static void Main()
+        //{
+            public static void testMain()
+            {
+                Customerrs[] customerrs = new Customerrs[3];
 
             customerrs[0] = new Customerrs
             {
