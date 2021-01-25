@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7605B716-06AC-4BAB-81FF-92B00F1F3241}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpAllConcepts</RootNamespace>
-    <AssemblyName>CSharpAllConcepts</AssemblyName>
+    <ProjectGuid>{F4FE0936-0646-4628-8BEA-90F9355B0855}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Reflection</RootNamespace>
+    <AssemblyName>Reflection</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -39,35 +39,42 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="_23Polymorphism.cs" />
-    <Compile Include="_24MethodOverridingvsHiding.cs" />
-    <Compile Include="_25Methodoverloading.cs" />
-    <Compile Include="_26Properties.cs" />
-    <Compile Include="_27Properties.cs" />
-    <Compile Include="_28Struct.cs" />
-    <Compile Include="_30Interfacecs.cs" />
-    <Compile Include="_31explicitinterface.cs" />
-    <Compile Include="_32Abstractclass.cs" />
-    <Compile Include="_34Multipleclassinheritance.cs" />
-    <Compile Include="_35Multipleinheritancofclass.cs" />
-    <Compile Include="_36Delegate.cs" />
-    <Compile Include="_37UsageofDelegates.cs" />
-    <Compile Include="_39MulticastDelegate.cs" />
-    <Compile Include="_40Exception.cs" />
-    <Compile Include="_41innerexception.cs" />
-    <Compile Include="_42CustomException.cs" />
-    <Compile Include="_43Exceptionhandling.cs" />
-    <Compile Include="_46Enum.cs" />
-    <Compile Include="_49AccessModifiers.cs" />
-    <Compile Include="_50AccessModifier.cs" />
-    <Compile Include="_52Attribute.cs" />
-    <Compile Include="_53Reflection.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

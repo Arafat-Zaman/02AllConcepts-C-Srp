@@ -19,9 +19,11 @@ namespace CSharpAllConcepts
 
     public class MainClass
     {
-        public static void Main()
+        public static void Mtestain()
         {
-            _49AccessModifiers AM = new _49AccessModifiers();
+            //public static void Main()
+            //{
+                _49AccessModifiers AM = new _49AccessModifiers();
             Console.WriteLine(AM.ID); 
         }
     }
