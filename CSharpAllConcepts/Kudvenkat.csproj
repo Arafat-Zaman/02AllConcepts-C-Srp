@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="57tostring.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="_23Polymorphism.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="_50AccessModifier.cs" />
     <Compile Include="_52Attribute.cs" />
     <Compile Include="_53Reflection.cs" />
+    <Compile Include="_56Generics.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

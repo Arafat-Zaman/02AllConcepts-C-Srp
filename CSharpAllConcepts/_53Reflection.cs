@@ -9,9 +9,11 @@ namespace CSharpAllConcepts
 {
     class _53Reflection
     {
-        public static void Main()
-        {
-            Type T = Type.GetType("CSharpAllConcepts.CustomerR");
+        //public static void Main()
+        //{
+            public static void test()
+            {
+                Type T = Type.GetType("CSharpAllConcepts.CustomerR");
             Console.WriteLine("Full Name = {0}",T.FullName);
             Console.WriteLine("Just the name = {0}", T.Name);
             Console.WriteLine("Just the namespace = {0}", T.Namespace);
