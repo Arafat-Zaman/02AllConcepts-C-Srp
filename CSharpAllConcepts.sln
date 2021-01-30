@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly2", "Assembly2\Asse
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{F4FE0936-0646-4628-8BEA-90F9355B0855}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partialclass", "Partialclass\Partialclass.csproj", "{9084140D-FE5A-4847-ADD8-672E8BF10C28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F4FE0936-0646-4628-8BEA-90F9355B0855}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4FE0936-0646-4628-8BEA-90F9355B0855}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4FE0936-0646-4628-8BEA-90F9355B0855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9084140D-FE5A-4847-ADD8-672E8BF10C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9084140D-FE5A-4847-ADD8-672E8BF10C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9084140D-FE5A-4847-ADD8-672E8BF10C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9084140D-FE5A-4847-ADD8-672E8BF10C28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
