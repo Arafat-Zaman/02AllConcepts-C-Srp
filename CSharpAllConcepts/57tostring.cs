@@ -8,9 +8,11 @@ namespace CSharpAllConcepts
 {
     class _57tostring
     {
-        public static void Main()
-        {
-            int Number = 10;
+        //public static void Main()
+        //{
+            public static void test()
+            {
+                int Number = 10;
             Console.WriteLine(Number.ToString());
 
             CutomerT c1 = new CutomerT();

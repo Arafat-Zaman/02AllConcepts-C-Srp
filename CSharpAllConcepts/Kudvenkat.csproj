@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="57tostring.cs" />
     <Compile Include="61partialclass.cs" />
+    <Compile Include="67Optionalparameter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="_23Polymorphism.cs" />
